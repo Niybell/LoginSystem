@@ -1,0 +1,85 @@
+body{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background: rgb(245, 255, 232);
+}
+
+.sing-up-container{
+  background: white;
+  margin: 30px auto;
+  width: 370px;
+  height:600px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.wrapper{
+  height: 100%;
+  width: 100%;
+}
+.sing-up{
+  background: rgb(151, 161, 221);
+  border: 0;
+  color: white;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+form div{
+  margin: 30px 0px;
+}
+.password{
+  margin-bottom: 0px;
+}
+.sing-up:hover{
+  background: rgb(125, 134, 184);
+}
+.sing-in{
+  margin-top: 4px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  color: rgb(94, 94, 94);
+}
+.form__title{
+  font-size: 17px;
+}
+a{
+  color: rgb(134, 187, 255);
+}
+a:hover{
+  color: rgb(96, 135, 185);
+}
+input{
+  width: 90%;
+  height: 20px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.363);
+  border: 1px solid rgb(190, 190, 190);
+}
+input.input-error{
+  box-shadow: 0px 0px 7px rgb(255, 0, 0);
+  border: 1px solid rgba(255, 49, 49, 0.884);
+}
+.error{
+  margin-top: 2px;
+  margin-left: 12px;
+  text-align-last: left;
+  font-size: 11px;
+  color: rgb(255, 40, 40);
+}
+.title{
+  margin-bottom: 40px;
+}
+form{
+  margin-bottom:10px;
+}
+.line{
+  width: 80%;
+  height: 2px;
+  background: rgb(231, 231, 231);
+  margin-top: 0px;
+  border-radius: 2px;
+}
